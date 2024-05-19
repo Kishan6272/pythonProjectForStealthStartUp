@@ -40,6 +40,6 @@ print(str)
 
 
 time.sleep(1)
-time.sleep(2)
+#time.sleep(2)
 
 driver.quit()
