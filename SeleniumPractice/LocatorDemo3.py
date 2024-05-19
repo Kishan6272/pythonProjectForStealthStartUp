@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
 from webdriver_manager.chrome import ChromeDriverManager
 
-driver = webdriver.Chrome(service = Service(ChromeDriverManager().install()))
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 driver.get("https://demo.automationtesting.in/Index.html")
 driver.maximize_window()
 email_Text=driver.find_element(By.ID,"email")
